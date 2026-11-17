@@ -82,7 +82,7 @@ cv-analyzer/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<YOUR_USERNAME>/ai-cv-analyzer.git
+git clone https://github.com/danu-codes/ai-cv-analyzer.git
 cd ai-cv-analyzer/backend
 
 # 2. Create a virtual environment
@@ -196,6 +196,8 @@ The app is deployed on [Render](https://render.com). Use these settings for a ne
 | Root directory | `backend` |
 | Build command | `pip install -r requirements.txt` |
 | Start command | `uvicorn app.main:app --host 0.0.0.0 --port $PORT` |
+
+[Click here to visit live website](https://ai-cv-analyzer-sb3p.onrender.com) 
 
 > Free-tier instances on Render sleep when idle, so the first request after inactivity can take a while to respond.
 
